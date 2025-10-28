@@ -38,20 +38,20 @@ Follows the **Medallion Architecture**:
 
 ---
 
-## Repository Structure
-dataset/             # Raw datasets used for the project
-docs/                # Documentation of data architecture, data catalog, and data flow
-data_model/          # Fact and dimension tables
-naming_conventions/  # Standards used for tables, columns, and scripts
-scripts/             # SQL scripts for ETL and transformations
-  ├─ bronze/         # Scripts for extracting and loading raw data
-  ├─ silver/         # Scripts for cleaning and transforming data
-  └─ gold/           # Scripts for creating analytical models
-tests/               # Test scripts and data quality files
-README.md            # Project overview and structure
-requirements.txt     # Project dependencies
-LICENSE              # MIT License
+**Repository Structure**
 
+.
+├── **dataset/** # Raw datasets used for the project
+├── **docs/** # Documentation of data architecture, data catalog, and data flow
+├── **data_model/** # Fact and dimension tables naming conventions
+├── **scripts/** # SQL scripts for ETL and transformations
+│   ├── **bronze/** # Scripts for extracting and loading raw data
+│   ├── **silver/** # Scripts for cleaning and transforming data
+│   └── **gold/** # Scripts for creating analytical models
+├── **tests/** # Test scripts and data quality files
+├── **README.md** # Project overview and structure
+├── **requirements.txt** # Project dependencies
+└── **LICENSE** # MIT License
 
 
 
