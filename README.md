@@ -51,6 +51,7 @@ Follows the **Medallion Architecture**:
 ├── **README.md** # Project overview and structure
 ├── **requirements.txt** # Project dependencies
 └── **LICENSE** # MIT License
+```
 ---
 
 
