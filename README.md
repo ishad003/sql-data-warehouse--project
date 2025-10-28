@@ -53,5 +53,22 @@ Follows the **Medallion Architecture**:
 └── **LICENSE** # MIT License
 ```
 ---
+## Analytics & Reporting
 
+Develop SQL-based reports to provide insights into:
+-Customer Behavior: Preferences, trends, and purchase patterns
+-Product Information: Inventory, performance, and sales statistics
+-Sales Trends: Revenue, growth, and actionable insights
+---
+## Dependencies
 
+To run this project, ensure you have:
+-Microsoft SQL Server – for executing SQL scripts and managing the warehouse
+-SQL Server Management Studio (SSMS) or another SQL client
+-Source Data Files – ERP and CRM CSV files
+
+No additional programming libraries are required as all ETL and transformations are implemented with SQL scripts.
+---
+## License
+
+This project is licensed under the **MIT License** – see [LICENSE](LICENSE) for details.
