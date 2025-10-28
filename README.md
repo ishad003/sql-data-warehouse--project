@@ -38,9 +38,8 @@ Follows the **Medallion Architecture**:
 
 ---
 
-**Repository Structure**
-
-.
+##**Repository Structure**
+```text
 ├── **dataset/** # Raw datasets used for the project
 ├── **docs/** # Documentation of data architecture, data catalog, and data flow
 ├── **data_model/** # Fact and dimension tables naming conventions
