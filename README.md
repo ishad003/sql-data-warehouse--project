@@ -1,22 +1,44 @@
-# Data Warehouse and Analytical Project 
-This project showcases a data analytics pipeline built from scratch — from collecting raw movie datasets to designing a star-schema data warehouse and visualizing insights using Power BI
+## Project Overview
+This project involves designing and implementing a **modern data warehouse** using **SQL Server**, following the **medallion architecture** (Bronze, Silver, Gold layers).
+
+The warehouse consolidates sales data from multiple sources to enable **analytical reporting** and **informed decision-making**.
+
+**Key Features:**
+- **Data Architecture:** Robust design using medallion layers  
+- **ETL Pipelines:** Extract, transform, and load data from source CSV files  
+- **Data Modeling:** Fact and dimension tables optimized for analytics  
+- **Analytics & Reporting:** SQL-based reports for actionable insights  
 
 ---
-specifications 
-data sources: Import data from two source systems (ERP and CRM) Provided as   CSV files.
-data quality: cleanse and resolve data quality issues prior to analysis.
-intergration: combine both sourses into a single, user-friendly data model designed for analytical queries.
-scope: focues on the latest dataset only; historization of data is not required.
-Documentation: provide clear documentation of the data model to support both business stakeholders and analytics teams
 
-###BI: Analytics & Reporting (Data Analytics)
+## Objectives
+- Consolidate sales data from ERP and CRM systems  
+- Enable analysis of **customer behavior**, **product info**, and **sales trends**  
+- Deliver a **user-friendly data model** for business stakeholders and analytics teams  
 
-### Objectives
-Develop SQL-based analytics to deliver detailed insights into:
-- **customer behavior**
-- **product performance**
-- **Sales Trends**
-These insights empower stakeholders with key business metrics,enabling strategic decision-making.
+---
+
+## Specifications
+- **Data Sources:** Two CSV files from ERP and CRM systems  
+- **Data Quality:** Cleanse and resolve data issues prior to analysis  
+- **Integration:** Combine both sources into a single analytical model  
+- **Scope:** Latest dataset only; no historical data required  
+- **Documentation:** Clear explanation of the data model for stakeholders and analysts  
+
+---
+
+## Data Architecture
+Follows the **Medallion Architecture**:  
+<img width="3231" height="1661" alt="Architecture drawio (1)" src="https://github.com/user-attachments/assets/f27ae974-66a0-43fd-a75d-5292bc1d22ac" />
+
+
+- **Bronze Layer:** Raw ingestion of source data  
+- **Silver Layer:** Cleansed and transformed data  
+- **Gold Layer:** Analytical models optimized for reporting  
+
+---
+
+## Repository Structure
 
 ##License
 This project is licensed under the [MIT License](LICENSE)
