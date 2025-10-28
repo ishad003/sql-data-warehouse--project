@@ -39,9 +39,19 @@ Follows the **Medallion Architecture**:
 ---
 
 ## Repository Structure
+dataset/ # Raw datasets (ERP & CRM CSV files)
+docs/ # Data architecture, catalog, and data flow documentation
+data_model/ # Fact and dimension tables
+naming_conventions/ # Standards for tables, columns, and scripts
+scripts/ # SQL scripts for ETL and transformations
+├─ bronze/ # Extract & load raw data
+├─ silver/ # Clean & transform data
+└─ gold/ # Analytical models
+tests/ # Test scripts and data quality files
+README.md # Project overview and structure
+requirements.txt # Software/dependencies for the project
+LICENSE # MIT License
 
-##License
-This project is licensed under the [MIT License](LICENSE)
 
 
 
