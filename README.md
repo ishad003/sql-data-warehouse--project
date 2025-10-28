@@ -38,7 +38,7 @@ Follows the **Medallion Architecture**:
 
 ---
 
-##**Repository Structure**
+## Repository Structure
 ```text
 ├── **dataset/** # Raw datasets used for the project
 ├── **docs/** # Documentation of data architecture, data catalog, and data flow
@@ -51,6 +51,6 @@ Follows the **Medallion Architecture**:
 ├── **README.md** # Project overview and structure
 ├── **requirements.txt** # Project dependencies
 └── **LICENSE** # MIT License
-
+---
 
 
