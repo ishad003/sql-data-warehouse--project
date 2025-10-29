@@ -53,13 +53,7 @@ Follows the **Medallion Architecture**:
 └── **LICENSE** # MIT License
 ```
 ---
-## Analytics & Reporting
--SQL-based analytics developed in this project provide insights into:
--Customer Behavior: Preferences, trends, and purchasing patterns
--Product Information: Inventory, performance, and sales statistics
--Sales Trends: Revenue, growth patterns, and actionable insights
 
----
 ## Dependencies
 
 To run this project, ensure you have:
